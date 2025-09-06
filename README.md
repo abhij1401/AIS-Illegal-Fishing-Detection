@@ -1,22 +1,22 @@
 text
-# AIS-Illegal-Fishing-Detection
+# 🎣 AIS-Illegal-Fishing-Detection 🚨
 
-An open-source tool that uses AIS vessel data and machine learning to detect illegal fishing activities in real time.  
+An open-source tool that uses AIS vessel data and machine learning to detect **illegal fishing activities** in real time.  
 Includes an interactive Streamlit interface for data input, anomaly detection, and geospatial visualization.
 
 ---
 
-## Features
+## ✨ Features
 
-- **Hybrid ML Models**: Isolation Forest & Autoencoder for anomaly detection  
-- **Streamlit Web App**: Friendly interface for instant predictions  
-- **Map Visualizations**: View vessel locations and suspicious activity  
-- **Activity Logging**: Logs all user inputs and predictions automatically  
-- **Popular Ports**: Displays key maritime ports on an interactive map  
+- 🤖 **Hybrid ML Models:** Isolation Forest & Autoencoder for anomaly detection  
+- 🖥️ **Streamlit Web App:** Friendly interface for instant predictions  
+- 🗺️ **Map Visualizations:** View vessel locations and suspicious activity  
+- 📝 **Activity Logging:** Logs all user inputs and predictions automatically  
+- ⚓ **Popular Ports:** Displays key maritime ports on an interactive map  
 
 ---
 
-## Installation
+## 🛠️ Installation
 
 git clone https://github.com/abhij1401/AIS-Illegal-Fishing-Detection.git
 cd AIS-Illegal-Fishing-Detection
@@ -28,7 +28,7 @@ text
 
 ---
 
-## How to Use
+## ▶️ How to Use
 
 streamlit run app.py
 
@@ -41,7 +41,7 @@ text
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 dataset/ # AIS data files (not bundled)
 venv/ # Virtual environment (optional)
@@ -56,20 +56,20 @@ text
 
 ---
 
-## Model Summary
+## 📈 Model Summary
 
-- **Preprocessing**: Cleans and organizes AIS data; creates features like speed & heading changes  
-- **Anomaly Detection**: Isolation Forest flags unusual vessel movement patterns  
-- **Autoencoder**: Detects deviations from learned normal vessel behaviors  
+- **Preprocessing:** Cleans and organizes AIS data; creates features like speed & heading changes  
+- **Anomaly Detection:** Isolation Forest flags unusual vessel movement patterns  
+- **Autoencoder:** Detects deviations from learned normal vessel behaviors  
 
 ---
 
-## License
+## 📄 License
 
 MIT License © 2025 Abhishek Jadhav
 
 ---
 
-## Contact
+## 📬 Contact
 
 Questions or contributions? Reach out to the maintainer.
