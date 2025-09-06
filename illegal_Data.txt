@@ -1,0 +1,9 @@
+Feature	     Value
+SOG	            0.5 knots
+COG	            45 degrees
+Heading	        300 degrees
+Speed Change	-1.5 knots
+Heading Change	170 degrees
+Navigational Status	    At anchor
+Latitude	    18.94
+Longitude	    72.83
