@@ -1,67 +1,75 @@
-🎣 AIS-Illegal-Fishing-Detection 🚨
-An open-source tool that uses AIS vessel data and machine learning to detect illegal fishing activities in real time.
-Features an interactive Streamlit interface for easy input, anomaly detection, and geospatial visualization.
+text
+# AIS-Illegal-Fishing-Detection
 
-✨ Features
-🤖 Hybrid ML Models: Isolation Forest & Autoencoder for robust anomaly detection
+An open-source tool that uses AIS vessel data and machine learning to detect illegal fishing activities in real time.  
+Includes an interactive Streamlit interface for data input, anomaly detection, and geospatial visualization.
 
-🖥️ Interactive Web App: User-friendly Streamlit interface for instant predictions
+---
 
-📍 Map Visualization: View vessel locations and suspicious activity on maps
+## Features
 
-📝 Activity Logging: Logs all user inputs and predictions automatically
+- **Hybrid ML Models**: Isolation Forest & Autoencoder for anomaly detection  
+- **Streamlit Web App**: Friendly interface for instant predictions  
+- **Map Visualizations**: View vessel locations and suspicious activity  
+- **Activity Logging**: Logs all user inputs and predictions automatically  
+- **Popular Ports**: Displays key maritime ports on an interactive map  
 
-⚓ Popular Ports: Displays key maritime ports with coordinates on an interactive map
+---
 
-🚀 Installation
-Clone the repo:
+## Installation
 
-bash
 git clone https://github.com/abhij1401/AIS-Illegal-Fishing-Detection.git
 cd AIS-Illegal-Fishing-Detection
-Create and activate Conda environment (recommended):
-
-bash
 conda create -n fishing_detection python=3.9 -y
 conda activate fishing_detection
-Install dependencies:
-
-bash
 pip install -r requirements.txt
-🏃‍♂️ How to Use
-Run the app:
 
-bash
-streamlit run app.py
-Enter vessel movement and navigational features.
-
-Get real-time detection of suspicious (potential illegal) fishing activity.
-
-See vessel position on interactive maps alongside popular ports.
-
-Your inputs and prediction results are saved for audit purposes.
-
-🗂️ Project Structure
 text
-├── dataset/             # AIS data files (not bundled)  
-├── venv/                # Virtual environment folder (optional)  
-├── app.py               # Streamlit app interface  
-├── model.py             # Data preprocessing and ML model code  
-├── prediction_log.csv   # Logs of predictions and inputs  
-├── requirements.txt     # Python package dependencies  
-└── README.md            # Project overview  
-⚙️ Model Summary
-Preprocessing: Cleans and prepares AIS data, features like speed & heading changes
 
-Anomaly Detection: Isolation Forest flags unusual movement patterns
+---
 
-Autoencoder: Detects deviations from learned normal vessel behaviors
+## How to Use
 
-🤝 Contributing
-Contributions welcome! Submit issues, feature requests, or pull requests.
+streamlit run app.py
 
-📄 License
-This project is licensed under the MIT License.
+text
 
-📫 Contact
-Questions, suggestions, or collaborations? Reach out to the maintainer.
+1. Enter vessel movement and navigational features.  
+2. Get instant detection of suspicious (illegal) fishing activity.  
+3. See vessel position on interactive map alongside popular ports.  
+4. Your inputs and prediction results are saved for audit.
+
+---
+
+## Project Structure
+
+dataset/ # AIS data files (not bundled)
+venv/ # Virtual environment (optional)
+app.py # Streamlit app interface
+model.py # Data preprocessing and ML model code
+requirements.txt # Python dependencies
+prediction_log.csv # Logs of predictions
+README.md # Project overview
+LICENSE # MIT License
+
+text
+
+---
+
+## Model Summary
+
+- **Preprocessing**: Cleans and organizes AIS data; creates features like speed & heading changes  
+- **Anomaly Detection**: Isolation Forest flags unusual vessel movement patterns  
+- **Autoencoder**: Detects deviations from learned normal vessel behaviors  
+
+---
+
+## License
+
+MIT License © 2025 Abhishek Jadhav
+
+---
+
+## Contact
+
+Questions or contributions? Reach out to the maintainer.
